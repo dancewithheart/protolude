@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       # https://github.com/haskell/actions/tree/main/setup
-      - uses: haskell/actions/setup@v2
+      - uses: haskell-actions/setup@v2
         id: setup-haskell-cabal
         with:
           ghc-version: ${{ matrix.ghc }}
